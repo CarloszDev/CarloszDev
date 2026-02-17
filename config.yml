@@ -1,68 +1,67 @@
-# Galaxy Profile README Configuration
-
 username: CarloszDev
 
 profile:
   name: "Carlos"
-  tagline: "Mobile & Frontend Developer • React Native Specialist"
+  tagline: "Mobile Engineer • Full-Stack Product Builder"
   company: "Sacflow"
   location: "Brazil"
   bio: |
-    Mobile developer focused on React Native, Expo and modern frontend stacks.
-    Building real-world products with WebView, Firebase push notifications and CMS integrations.
-    Passionate about clean architecture, performance and developer experience.
-  philosophy: '"Ship fast, refactor smarter."'
+    Mobile-first Full Stack Developer with real production experience.
+    Specialized in React Native + Expo, building SaaS products with WebView architectures,
+    push notifications, CMS integrations and real-time systems.
+
+    Strong focus on clean architecture, scalability, performance and developer experience.
+    I work end-to-end: from implementation to deployment in stores.
+
+  philosophy: '"Ship fast. Architect better. Maintain forever."'
 
 social:
   linkedin: "carlos-dev"
   website: "https://github.com/CarloszDev"
 
-# Core focus areas
-
 galaxy_arms:
-  - name: "Mobile / Frontend"
+  - name: "Mobile & Frontend"
     color: "dendrite_violet"
     items:
       - "React Native"
       - "Expo"
       - "TypeScript"
+      - "Next.js"
       - "Tailwind"
-      - "WebView"
+      - "WebView Architecture"
 
-  - name: "Backend / Services"
+  - name: "Backend & Integrations"
     color: "synapse_cyan"
     items:
       - "Node.js"
-      - "Firebase"
-      - "Hygraph"
       - "REST APIs"
+      - "Socket.IO"
+      - "Hygraph CMS"
       - "PostgreSQL"
+      - "Async Jobs"
 
-  - name: "Product & DevOps"
+  - name: "Product Engineering"
     color: "axon_amber"
     items:
+      - "Firebase Push Notifications"
+      - "CI/CD"
       - "GitHub Actions"
       - "Docker"
-      - "Play Store Deploy"
-      - "CI/CD"
+      - "Play Store / App Store Deploy"
       - "App Distribution"
-
-# Featured projects
 
 projects:
   - repo: "CarloszDev/sacflow-app"
     arm: 0
-    description: "React Native WebView app with Firebase push notifications for customer support teams."
+    description: "React Native WebView app with Firebase push notifications used by real support teams."
 
   - repo: "CarloszDev/sacflow-web"
     arm: 1
-    description: "Frontend system integrated with Hygraph CMS and real-time messaging."
+    description: "Frontend system integrated with CMS, SEO optimization and real-time messaging."
 
   - repo: "CarloszDev/push-notification-service"
     arm: 1
-    description: "Node + Firebase service handling transactional and internal chat notifications."
-
-# Theme (kept cosmic but more clean-dev vibes)
+    description: "Node service handling transactional and internal chat notifications."
 
 theme:
   void: "#0b0f17"
